@@ -1,0 +1,2 @@
+INFO: Initializing the window and first scene ( c:\users\hau5\google drive\school\computer graphics 2\componentframework3.0\componentframework\gamescenemanager.cpp: 93)
+INFO: 1.13.0 ( c:\users\hau5\google drive\school\computer graphics 2\componentframework3.0\componentframework\window.cpp: 66)
