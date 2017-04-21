@@ -29,13 +29,13 @@ bool GAME::Model1::OnCreate()
 	meshes.push_back(new Mesh(GL_TRIANGLES, obj.vertices, obj.normals, obj.uvCoords));
 
 	/// Create a shader with attributes
-	shader = new Shader("textureVert.glsl", "textureFrag.glsl", 3, 0, "vVertex", 1, "vNormal", 2, "vTexture"); //,3, nullptr);
+	shader = new Shader("refractionVert.glsl", "refractionFrag.glsl", 3, 0, "vVertex", 1, "vNormal", 2, "vTexture");
 
-	GLuint loc = loadTextureRAW("InternalReflection.raw", 1024, 1024);
+	GLuint loc = loadTextureRAW("SkullTexture.raw", 640, 427);
 	GLuint texture0 = glGetUniformLocation(shader->getProgram(), "myTexture0");
 	glUniform1i(texture0, loc);
 
-	projectionMatrixID = glGetUniformLocation(shader->getProgram(), "projMatrix");
+	projectionMatrixID = glGetUniformLocation(shader->getProgram(), "projectionMatrix");
 	modelViewMatrixID = glGetUniformLocation(shader->getProgram(), "modelViewMatrix");
 	normalMatrixID = glGetUniformLocation(shader->getProgram(), "normalMatrix");
 	lightPosID = glGetUniformLocation(shader->getProgram(), "light_Pos");

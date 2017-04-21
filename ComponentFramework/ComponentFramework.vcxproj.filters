@@ -90,6 +90,12 @@
     <ClCompile Include="Scene2.cpp">
       <Filter>Source Files\Scenes</Filter>
     </ClCompile>
+    <ClCompile Include="Model3.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene3.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Debug.h">
@@ -155,6 +161,12 @@
     <ClInclude Include="Model2.h">
       <Filter>Header Files\Models</Filter>
     </ClInclude>
+    <ClInclude Include="Scene3.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Model3.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="phongFrag.glsl">
@@ -167,6 +179,18 @@
       <Filter>Resource Files</Filter>
     </None>
     <None Include="textureVert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="skyBoxFrag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="skyBoxVert.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="refractionFrag.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="refractionVert.glsl">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

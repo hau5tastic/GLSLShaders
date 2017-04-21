@@ -5,6 +5,7 @@
 #include "Scene0.h"
 #include "Scene1.h"
 #include "Scene2.h"
+#include "Scene3.h"
 #include <cassert>
 
 using namespace GAME;
@@ -102,7 +103,8 @@ bool GameSceneManager::Initialize(){
 	// Change Scenes
 	//currentScene = new Scene0(windowInstance);
 	//currentScene = new Scene1(windowInstance);
-	currentScene = new Scene2(windowInstance);
+	//currentScene = new Scene2(windowInstance);
+	currentScene = new Scene3(windowInstance);
 
 	if(currentScene == nullptr){
 		Debug::Log(EMessageType::FATAL_ERROR, "Failed to initialize the Scene",__FILE__, __LINE__);

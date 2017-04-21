@@ -77,11 +77,13 @@
     <ClCompile Include="MMath.cpp" />
     <ClCompile Include="Model1.cpp" />
     <ClCompile Include="Model2.cpp" />
+    <ClCompile Include="Model3.cpp" />
     <ClCompile Include="ObjLoader.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="Scene0.cpp" />
     <ClCompile Include="Scene1.cpp" />
     <ClCompile Include="Scene2.cpp" />
+    <ClCompile Include="Scene3.cpp" />
     <ClCompile Include="Shader.cpp" />
     <ClCompile Include="Timer.cpp" />
     <ClCompile Include="Trackball.cpp" />
@@ -99,11 +101,13 @@
     <ClInclude Include="MMath.h" />
     <ClInclude Include="Model1.h" />
     <ClInclude Include="Model2.h" />
+    <ClInclude Include="Model3.h" />
     <ClInclude Include="ObjLoader.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="Scene0.h" />
     <ClInclude Include="Scene1.h" />
     <ClInclude Include="Scene2.h" />
+    <ClInclude Include="Scene3.h" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="Timer.h" />
     <ClInclude Include="Trackball.h" />
@@ -114,6 +118,10 @@
   <ItemGroup>
     <None Include="phongFrag.glsl" />
     <None Include="phongVert.glsl" />
+    <None Include="refractionFrag.glsl" />
+    <None Include="refractionVert.glsl" />
+    <None Include="skyBoxFrag.glsl" />
+    <None Include="skyBoxVert.glsl" />
     <None Include="textureFrag.glsl" />
     <None Include="textureVert.glsl" />
   </ItemGroup>
